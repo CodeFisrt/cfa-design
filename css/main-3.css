@@ -1,0 +1,250 @@
+.bg-image{
+    background-image: url(../images/slider-img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height:80vh
+   
+}
+.bg-color{
+    background-color: #1A2C79;
+}
+.bg-gradient{
+    background: linear-gradient(85deg, rgba(26, 44, 121, 0.8) 30%, rgba(232, 5, 102, 0.9) 100%) !important;
+   height: 80vh;
+   background-size: cover;
+   width:100%
+}
+.font-s{
+    font-size: 17px
+}
+.link-style ol li a{
+    color:#ffff;
+    text-decoration: none;
+}
+.costom-pill{
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+}
+.btn-pill:hover{
+    background-color: #1A2C79 !important
+    color:#ffff !important
+    
+}
+.nav-item{
+    margin-right: 1rem;
+    
+    
+}
+.btn-pill{
+    border-radius: 2rem;
+    padding:10px 20px;
+    border-color: #1A2C79;
+    color: #1A2C79;
+    font-size: 20px;
+}
+ .btn-pill a:hover{
+    color:#ffffff;
+    background-color: #1A2C79;
+ }
+ 
+ .portfolio-item {
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+ .portfolio-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+
+ }
+ .p-2 {
+    padding: 0.5rem !important;
+}
+a, .text-action {
+    color: #1A2C79;
+    transition: all 0.2s ease;
+}
+ .portfolio-wrapper.content-overlay{
+    background: linear-gradient(to right, #1A2C79 2%, #e80566 82%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+ }
+
+
+ 
+
+.fadeIn-bottom {
+    top: 80%;
+}
+.content-details {
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn-color{
+    background-color: #1A2C79;
+    color:#ffffff
+    }
+.icon-shape{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    display:inline-flex;
+    justify-content: center;
+}
+.links-vertical a{
+    color:#dcd1d1;
+    text-decoration: none;
+}
+.footer-bg{
+    background-color: #1A2C79;
+}
+.fa-twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+.fa-facebook-f{
+    color: #ffffff;
+    background-color: #3b5999;
+    border-color: #3b5999
+}
+.fa-youtube{
+    color: #ffffff;
+    background-color: #cd201f;
+    border-color: #cd201f;
+}
+.fa-dribbble{
+    color: #ffffff;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+
+}
+.footer-end{
+    background-color: #1A2C79;
+}
+.icon-color{
+    color:#cd201f
+}
+.footer ul.links-vertical li a {
+    padding: 5px;
+}
+ul li{
+    padding-bottom: 25px;
+}
+ul li a:hover{
+    color:#ffff
+}
+
+
+
+/* service.html-link-page */
+.btn-bg{
+    background-color: #e80566;
+    color:#ffff
+}
+.fa-forward{
+    color:#e80566
+}
+.bg-default{
+   background-color:  #0648B3 
+}
+.bg-col{
+    background-color: #e80566;
+}
+.bg-col-2{
+    background-color: #1A2C79;
+}
+.brain-icon{
+    background-color: #1A2C79;
+
+}
+.bg-confluence{
+    background-color: #e80566;
+}
+.icon-shape.icon-lg {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.icon-shape.icon-lg i{
+    font-size: 1.875rem;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.section-lg {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+section {
+    display: block;
+}
+
+.fit-cover {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -1 !important;
+    position:absolute
+}
+.section-lg{
+    position: relative;
+}
+.bg-gradient-default{
+    background: linear-gradient(85deg, rgba(26, 44, 121, 0.8) 30%, rgba(232, 5, 102, 0.9) 100%) !important;height: 80vh;
+    background-size: cover;
+
+}
+.btn-pill:hover{
+    background-color: #ffffff;
+    color:black !important
+
+}
+
+.icon.icon-lg {
+    height: 3.75rem;
+}
+.services-section{
+    background-color: rgb(244, 238, 238);
+}
+.services-content-wrap{
+    margin-left: 15px;
+    line-height: 1;
+    
+}
+.h6{
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+}

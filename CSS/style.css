@@ -1,0 +1,204 @@
+.main-h{
+    
+    background-color: rgb(0, 76, 170);
+
+ }
+ nav.nav-lobo {
+    margin-left: 62px;
+}
+ .nav-bar{
+    font-size: 20px;
+    font-weight:bold;
+ }
+ a.nav-bar {
+    color: rgb(0, 76, 170);}
+    .nav-bar:hover
+    {
+        color: #fc5185;
+    }
+.row-text{
+    margin-top: 50px;
+margin-top: 2px;}
+
+.main-ctnr{
+    padding-top: 60px;
+}
+ .main-row-1{
+    background-color: rgb(0, 76, 170);
+    color: white; 
+}
+.title-1{
+    font-weight:400px;
+}
+.navbar-main ul a{
+    display: row;
+   
+}
+.nav-1 {
+  flex-direction:row;
+   
+}
+.nav-link {
+    color: rgb(230, 22, 178);
+    margin: 30px;
+  
+}
+.button-1{
+    background-color: #fc5185;
+
+}
+.button-1:hover{
+color: black;
+background-color: white;
+}
+.button-2{
+    color: white;
+    background-color: rgb(0,76,170);
+
+}
+.button-2:hover{
+}
+.button-3{
+    background-color: #fc5185;
+}
+.button-3:hover{
+ color: #fa5e8d96;
+}
+
+.main-cr{
+    
+}
+
+.img-div{
+    background-color: url(../Images/hero-theeth.png);
+}
+.main-hero{
+    padding-top:85px ;
+    padding-bottom:85px;
+}
+.crd-b:hover{
+    
+    transform: translateY(-10px);
+
+}
+.crd-b{
+    border-color:rgb(244, 241, 241);
+    border-radius: 10px;
+}
+.fun-warp {
+    color: #222;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    position: relative;
+    box-shadow: 8.135px 18.271px 40px 0px rgba(0, 0, 0, 0.08);
+    padding: 80px 50px 75px;}
+
+.read-1{
+      color: white;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(252,81,133);
+}
+.read-1:hover{
+    color:rgb(252,81,133);
+
+}
+.our-dnt{
+    text-decoration:none;
+    color:black ;
+    font-size: 30px ;
+    font-weight: bold;
+}
+.our-dnt:hover{
+    text-decoration: none;
+    color:#fc5185 ;
+}
+.im-cir{
+    background: #fc5185;
+   
+
+}
+
+ .card-brd{
+    box-shadow: 10px 20px 30px rgb(189, 183, 183);
+    border: none;
+    
+
+} 
+.card-brd:hover{
+    transform: translateY(-10px);
+    
+}
+.card-brd-1{
+    border: none;
+}
+.im-rd{
+border-radius:5%
+}
+.title-a{
+    
+   
+}
+.mida-1{
+    color: black;
+}
+.mida-1:hover{
+    color: #fc5185;
+}
+.our-row{
+    text-decoration:none;
+    color: #fc5185;
+}
+
+
+.latest-1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.blog-1:hover{
+    color: #fc5185;
+
+
+}
+ul li{
+    list-style: none;
+
+}
+.fot-a{
+    color: white;
+    font-size: 14px;
+    font-weight:bold;
+    text-decoration: none;
+ 
+}.fot-a:hover{
+    color: #fc5185;
+}
+.widetgs-content ul li a{
+color: white;
+text-decoration:none;
+font-size: 14px;
+font-weight:bold;
+}
+.widetgs-content li{
+   list-style: none;}
+.widetgs-content ul li a:hover{
+    color: #fc5185;
+}
+
+.foot-r{
+padding-top: 30px;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+
+.copyrigte-1{
+    background-color:rgb(18,89,176) ;
+    color: white;
+}

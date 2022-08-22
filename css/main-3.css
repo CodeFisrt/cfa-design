@@ -1,5 +1,5 @@
 .bg-image{
-    background-image: url(images/slider-img-4.jpg);
+    background-image: url(../images/slider-img-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    height:80vh
@@ -29,8 +29,9 @@
     
 }
 .btn-pill:hover{
-    background-color: #1A2C79;
-    color:#ffff
+    background-color: #1A2C79 !important
+    color:#ffff !important
+    
 }
 .nav-item{
     margin-right: 1rem;
@@ -44,7 +45,7 @@
     color: #1A2C79;
     font-size: 20px;
 }
- .btn-pill a :hover{
+ .btn-pill a:hover{
     color:#ffffff;
     background-color: #1A2C79;
  }
@@ -156,7 +157,7 @@ ul li a:hover{
 
 
 
-/* service.html */
+/* service.html-link-page */
 .btn-bg{
     background-color: #e80566;
     color:#ffff
@@ -219,11 +220,10 @@ section {
 }
 .btn-pill:hover{
     background-color: #ffffff;
+    color:black !important
 
 }
-.t:hover{
-color: black;
-}
+
 .icon.icon-lg {
     height: 3.75rem;
 }

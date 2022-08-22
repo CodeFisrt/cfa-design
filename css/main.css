@@ -1,3 +1,4 @@
+/* header section */
 .postion-class{
 background-color: #ffff;
 }
@@ -10,6 +11,7 @@ background-color: #ffff;
     margin-right: 10%;
     
 }
+/* hero section */
 .bg-color{
     background-color:rgb(247, 240, 240) ;
     padding-top: 15%;
@@ -33,6 +35,7 @@ background-color: #ffff;
 span{
     margin-right: 23%;
 }
+/* card section start */
 .content-wrap{
 padding:50px 300px;
 margin-top: 80px;
@@ -76,6 +79,7 @@ padding-top: 20%;
     margin-bottom: 10%;
     
 }
+/* client logo section */
 .lead{
 font-size: 1.25rem;
     font-weight: 400;
@@ -97,6 +101,7 @@ font-size: 1.25rem;
     
     
 }
+/* about section */
 .new-bg{
     background-color: #1A2C79;
 }
@@ -106,9 +111,6 @@ font-size: 1.25rem;
     margin-top: 15px;
     margin-bottom: 15%;
 }
-
-   
-    
 
 .fancy-radius{
     border-radius:   63% 37% 30% 70% / 50% 45% 55% 50%;
@@ -129,11 +131,14 @@ h2{
     color:#ffffff;
     font-weight: 400;
 }
+
+/* features section */
 .font-s{
     font-size: 1.25rem;
     line-height: 1.5;
     color: #707070;;
 }
+
 .content-wrap-2{
     padding:50px 250px;
     margin-top: 40px;
@@ -144,8 +149,10 @@ h2{
 .card-style{
     border: none;
 }
+
+/* bg-gradient section */
 .bg-image{
-    background-image: url(images/slider-img.png);
+    background-image: url(../images/slider-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -164,23 +171,24 @@ h2{
     padding: 0px 280px;
 }
 
-.list-inline-item{
-    box-sizing: border-box;
-    background-color: #d0cbcb54;
-    border-radius: 5px;
-    
-}
+
 h5{
     font-size: 1.5rem;
    
 }
-.f-color{
-    color:rgba(255, 255, 255, 0.6) !important
+li.list-inline-item {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f3eeee4a;
+    
 }
+
+/* portfolio section */
 .section-lg{
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+
 .content-wrap-4{
     padding: 0px 200px;
 }
@@ -272,6 +280,7 @@ a, .text-action {
     transition: all 0.3s ease-in-out 0s;
 }
  
+/* blog section, team section, testimonial section */
  .content-wrap-5 {
     padding: 0px 250px;
     margin-top: 10%
@@ -315,10 +324,13 @@ a, .text-action {
     padding-left: 30px;
     
  }
+ 
  .rounded-circle{
-    width:3rem;
+    width:3rem 
 
  }
+ 
+ 
  .profile-card .profile-image-small img {
     border: 0.25rem solid #ffffff;
     border-radius: 50% !important;
@@ -330,9 +342,8 @@ img {
     vertical-align: middle;
 
 }
- ul.list-inline{
-    margin-right: 20px;
-}
+ 
+/* info section, footer section */
 .btn-color{
 background-color: #1A2C79;
 color:#ffffff

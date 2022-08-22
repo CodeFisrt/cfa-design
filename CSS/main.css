@@ -81,7 +81,9 @@ body {
 } 
 
 /* Image Slider */
-
+.image-text {
+    font-size: 50px;
+}
 .text-wrap {
     font-size: 50px;
     font-family: lobster;
@@ -276,7 +278,7 @@ background-color: #382925;
 .img img{
     border-radius: 3px;
 }
-.img-title {
+.img-discription {
     font-size: 15px;
     font-weight: bold;
 }
@@ -485,9 +487,58 @@ background-color: #382925;
     margin: 10px;
 }
 .texts {
-    padding: 20px;
+    padding: 15px;
 } 
 .area {
    width: 300px;
-   height: 200px;
+   height: 150px;
+}
+.contact {
+    background-color: #382a26;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.main-button {
+    background-color: #382a26;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px; 
+}
+.card-div  {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card-div ul li {
+    list-style: none;
+}
+.card-div li{
+    margin: 10px 30px 10px 10px;
+}
+.card-div a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #554a4c;
+    margin-left: 8px;
+}
+ .card-div span {
+    float: right;
+    margin-right: 20px
+}
+.colored {
+    background-color: rgba(0, 0, 0, 0.032);
+}
+.card-bottom h3 {
+    background-color: #58433d;
+    border-radius: 3px;
+    margin: 20px 20px;
+    padding: 15px 60px;
+    font-size: 13px;
+    color: white;
+}
+.card-bottom  a {
+    font-size: 12px;
+}
+.card-bottom p {
+    font-size: 13px; 
 }

@@ -1,0 +1,14 @@
+/*about us Page*/
+/* header page */
+@media(min-width: 992px){
+.section-lg{
+    padding-top:128 px ;
+    padding-bottom:128 px ;
+}
+}
+@media(min-width:576px){
+    .section-lg{
+    padding-top: 190px;
+    padding-bottom: 105px;
+}
+}

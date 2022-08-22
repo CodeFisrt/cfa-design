@@ -1,0 +1,237 @@
+/*body */
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #707070;
+    text-align: left;
+} 
+/* header section */ 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: transparent;
+}
+.list-item  li a{
+    text-decoration:none;
+    color: #ffff;    
+}
+/* page header section start*/
+.cover-page{
+    background-image: url(/Carporate-Project/images/slider-img-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+}
+.bg-gradient-primary{
+    background: linear-gradient(85deg, rgba(26, 44, 121, 0.8) 30%, rgba(232, 5, 102, 0.9) 100%);    
+}
+.section-header{
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+.page-header-content li{
+   padding: 5px;
+   font-family: monospace;
+}
+/* work process section start */
+.section{
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35px;
+} 
+.lead{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* .fa-brain{
+    font-size: 30px;
+} */
+.img-size{
+    padding: 25px;
+    border-radius: 40px;
+}
+.card-size{
+    padding: 30px 40px;
+}
+.card-outline{
+    border: 1px solid #e9ecef;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 0px 0px;
+    margin: 0px;
+    width: 350px;
+}
+.card-outline1{
+    width: 354px; 
+}
+.feature-widget{
+    padding: 10px;
+}
+
+
+/* work process section end */
+/* About us section atart */
+.background-about{
+    background-color: #F5F5F5;
+}
+
+.feature-tabs-center{
+    margin-bottom: 25px;
+}
+.feature-tabs li a .feature-tabs li a.active {
+    background: transparent
+}
+.nav-tabs .nav-link {
+        border: 0.0625rem solid transparent;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+}
+.nav-link {
+    color: #181C32;
+}
+.nav-item{
+    padding: 10px;
+}
+/*footer section*/
+.footer-wrap{
+    background-color: #1A2C79 ;
+}
+.fa-square-twitter{
+  
+   color: #1DA1F2;  
+   font-size: 25px;  
+}
+.fa-facebook{
+    color: #1DA1F2;  
+   font-size: 25px;
+}
+.fa-square-youtube{
+   color: #CD201F ;
+   font-size: 25px; 
+}
+.fa-dribbble{
+    color: #EA4C89;
+    font-size: 25px;
+}
+.footer-section li p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #707070;
+}
+.footer-item li p{
+    line-height: 2;
+}
+/* cta section start */
+.background-cta{
+    background-image: url(/Carporate-Project/images/hero-bg11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn.btn-pill {
+    border-radius: 2rem;
+}
+.btn {
+    font-family: "Archivo", sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+    vertical-align: middle;    
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.7rem 1.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+.fab{
+    font-size: 50px;
+}
+.icon{
+    margin-right: 15px;
+}
+.h6 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #ffff;
+    color: #1A2C79;
+    }
+.download-btn-wrap .fab:hover{
+    color: #1A2C79;
+}
+.download-btn-wrap .h6:hover{
+    color: #1A2C79;
+}
+.download-btn-wrap .font-small:hover{
+    color: #1A2C79;
+} 
+.btn-1{
+    margin-right: 20px;
+}
+.btn-2{
+    margin-right: 20px;
+}
+/* team us section start */
+.card-wrap{
+    display: flex;    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #F0F0F0;
+}
+.team-image{
+    padding: 8px;
+    background-color: #f5f5f5;
+}
+.h6{
+    line-height: 1.3;
+    
+    margin-bottom: 0;
+}
+.card{
+    border: unset;
+}
+ /* testimonial section start  */
+ .quotation i{
+    font-size: 10px;
+ }
+.quotation i{    
+    color: #D1D3E0;
+    font-size: 65px; 
+ }
+ .italic{
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ .media-content{
+    margin-left: 18px;
+ }
+ .testimonial{
+    border-radius: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgb(24 28 50 / 7%);
+    width: 550px;
+    
+ }
+ .star i{
+    color: #F5B759;
+ }
+

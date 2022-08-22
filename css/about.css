@@ -1,0 +1,124 @@
+.top-content{
+    padding: 120px 0px;
+}
+.service-item-box {
+    padding: 70px 48px 63px;
+    color: aliceblue;
+    transition: .4s;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.paitent-foused-wrap{
+    background-color: #125ab3;
+    padding: 120px 0;
+}
+.promo-text-section{
+    padding: 120px 0;
+}
+.our-achievehment-wrap{
+    background-color: #125ab3;
+    padding: 120px 0; 
+     }
+.hero-slide-left{
+        padding-top: 100px;
+}
+
+.appointment-wrapper{
+    padding: 120px 0;
+}
+.appointment-form form input{
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 10px 40px 0 rgb(0 0 0 / 5%);
+    height: 68px;
+    border: none;
+    line-height: 1;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: 300px;
+    margin-top: 30px;
+}
+.appointment-form form textarea{
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 10px 40px 0 rgb(0 0 0 / 5%);
+    height: 68px;
+    border: none;
+    line-height: 1;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: 300px;
+    margin-top: 30px;
+}
+button.submit-btn {
+    background: #fc5185;
+   
+    color: #fff;
+    
+    transition: .5s;
+    font-weight: 700;
+    display: inline-block;
+    padding: 22px 55px;
+    border-radius: 3px;
+    line-height: 1;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.widegts-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.widegts-content ul li {
+    list-style: none;
+}
+
+.widegts-content ul li a:hover {
+    color: pink;
+}
+.widegts-content{
+font-size: 16px !important;
+font-weight: 400px !important;
+line-height: 30px !important;
+
+}
+.single-footer-widget {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.last-footer{
+    background-color: rgb(43, 70, 226);
+}
+.footer-last-part{
+    background-color: #004caa;
+   
+}
+
+.footer{
+    line-height: 1;
+}
+.navbar-collapse ul li {
+    display: inline;
+    list-style: none;
+ padding: 10px;
+}
+
+.navbar-collapse ul li a:hover {
+    color: pink;
+}
+.navbar-collapse ul li a{
+    text-decoration: none;
+    text-decoration: solid 1px;
+    color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,117 @@
+.f-widget-title{
+    margin-bottom: 30px;
+} 
+.single-footer-widget h2{
+    line-height: 1;
+    font-size: 30px;
+}
+.single-footer-widget a{
+    font-weight: 400px   ;
+    display: block;
+    line-height: 34px;
+    color: #ddd !important;
+    text-decoration: none;
+}
+/* .col-lg-6, .col-12{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+} */
+    
+.card .card-img1{
+     width: 70px;
+    height: 70px; 
+    text-align: center;
+    line-height: 70px;
+    background: hsl(353, 100%, 95%);
+    display: inline;
+    border-radius: 50%;
+    color: #fc5185;
+   
+    font-size: 26px;
+    
+    transition: .5s;
+    margin-right: 20px;
+}
+.card{
+    min-height: 171px;
+    background: #fff;
+    box-shadow: 0 6px 26px rgb(0 0 0 / 6%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 35px;
+    
+    transition: .5s;
+}
+.contact-form-wraper{
+    margin-top: 60px;
+}
+body{
+    font-size: 16px !important;
+    line-height: 30px !important;
+    font-weight: 400px !important;
+}
+
+
+.contact-form-wraper h1 {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+h1{
+    display: block;
+}
+.contact-form-wraper form input {
+    width: 100%;
+    height: 71px;
+    background: #fff;
+    box-shadow: 0 6px 26px rgb(0 0 0 / 6%);
+    border: none;
+    padding-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 29px;
+    color: #666;
+}
+.contact-form-wraper form textarea {
+    width: 100%;
+    height: 71px;
+    background: #fff;
+    box-shadow: 0 6px 26px rgb(0 0 0 / 6%);
+    border: none;
+    padding-left: 30px;
+    text-transform: capitalize; 
+    margin-bottom: 29px;
+    color: #666;
+}
+.footer-wrapper{
+    background-color:blue ;
+    padding-top: 60px;
+}
+.contact-form-wraper{
+    padding-bottom: 80px;
+}
+.footer-copyright-wrapper{
+    padding: 20px 0;
+    background-color: #1259b0;
+}
+.hero-slide-left{
+    padding-top: 100px;
+}
+.navbar-collapse ul li {
+    display: inline;
+    list-style: none;
+ padding: 10px;
+}
+
+.navbar-collapse ul li a:hover {
+    color: pink;
+}
+.navbar-collapse ul li a{
+    text-decoration: none;
+    text-decoration: solid 1px;
+    color: blue;
+    font-weight: bold;
+}

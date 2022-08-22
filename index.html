@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header and Hero Section -->
+    <section>
+        <header class="header-bg">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row header-top-row ">
+                        <div class="col d-md-flex d-sm-block header-modal justify-content-end p-0">
+                            <ul class=" d-flex pe-4">
+                                <li class="pe-4" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    data-bs-whatever="@mdo">Sign Up</li>
+                                <div class="modal fade text-dark" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content" style="background-color: #f8f8f8;">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Make an Account</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="">
+                                                        <label for="exampleInputusername"
+                                                            class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputusername" placeholder="Username">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputfname" class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputfname" placeholder="First Name">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputlname" class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputlname" placeholder="Last Name">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputEmail1" class="col-form-label"></label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="Email address">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputPassword1"
+                                                            class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="Password">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputCPassword1"
+                                                            class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputCPassword1" placeholder="Confirm Password">
+                                                    </div>
+
+                                                    <div class=" form-check my-2">
+                                                        <input type="checkbox" class="form-check-input rounded-0"
+                                                            id="exampleCheck1">
+                                                        <label class="form-check-label rounded-0 "
+                                                            for="exampleCheck1">Register as an agent</label>
+                                                    </div>
+                                                    <div class=" form-check my-2">
+                                                        <input type="checkbox" class="form-check-input rounded-0"
+                                                            id="exampleCheck1">
+                                                        <label class="form-check-label rounded-0" for="exampleCheck2">I
+                                                            agree with <a href="#"> Terms and
+                                                                Conditions</a></label>
+                                                    </div>
+                                                    <div class=" ps-0 ms-0 form-check my-2">
+                                                        <a href="#">Forgot password?</a>
+                                                    </div>
+
+                                                    <button type="button"
+                                                        class="btn btn-primary width=100% form-control ">Sign
+                                                        Up</button>
+                                                    <p class="my-3">Already a member? <a href="#">Sign In</a></p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <li class="pe-4" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1" data-bs-whatever="@fat">Sign In</li>
+                                <div class="modal fade text-dark" id="exampleModal1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content" style="background-color: #f8f8f8;">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Login into Account</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="modal-sign-up-fb text-center ">
+                                                        <a href="#" class="modal-sign-up-fb-a ">
+                                                            <span class="fa-brands fa-facebook-f pe-5"> </span>
+                                                            <span class="text-center ">Sign In With Facebook</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="modal-sign-up-google text-center ">
+                                                        <a href="#" class="modal-sign-up-google-a ">
+                                                            <span class="fa-brands fa-google-plus-g pe-5"> </span>
+                                                            <span class="text-center ">Sign In With Google</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="text-center mt-3">OR</div>
+                                                    <div class="mb-0">
+                                                        <label for="exampleInputusername"
+                                                            class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputusername" placeholder="Username">
+                                                    </div>
+                                                    <div class="">
+                                                        <label for="exampleInputPassword1"
+                                                            class="col-form-label"></label>
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="Password">
+                                                    </div>
+                                                    <div class=" form-check my-2 ">
+                                                        <input type="checkbox" class="form-check-input rounded-0"
+                                                            id="exampleCheck1">
+                                                        <label class="form-check-label rounded-0 "
+                                                            for="exampleCheck1">Remember Me</label>
+                                                        <a href="#" class="ps-5">Forgot password?</a>
+                                                    </div>
+                                                    <button type="button"
+                                                        class="btn btn-primary width=100% form-control ">Sign
+                                                        Up</button>
+                                                    <p class="my-3">Don't have an account? <a href="#">Sign In</a></p>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                            <div>
+                                <a href="#" class="h-cta">Submit New Property</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row secondary-header py-lg-4 py-md-2">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="container-fluid">
+                                <img src="Images/logo.png" alt="logo" srcset="">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-end header-menu" id="navbarNav">
+                                    <ul class="navbar-nav fw-bold ">
+                                        <li class="nav-item ">
+                                            <a class="nav-link active" aria-current="page" href="#">DASHBOAD</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">SUBMIT PROPERTIES</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">BLOG</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="row text-center mt-5 pt-5">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6 px-5 py-5 mt-5 text-center fs-3 hero-text">Created to give you best
+                            possible experience in finding properties an homes
+                        </div>
+                    </div>
+                    <div class="row text-center">
+
+                        <div class="col-lg-12   pb-5 mb-5 text-center display-6 hero-text dual-btn ">
+                            <!-- <button type="button" class="btn dual-btn "><a href="#" class="see-now-btn  rounded-0  ">See
+                                    Now</a></button>
+                            <button type="button" class="btn my-sm-3 "><a href="#" class="see-video-btn  rounded-0 ">See
+                                    Video</a></button> -->
+                            <ul>
+                                <li><a href="#" class="btn  see-now-btn  rounded-0">See Now</a></li>
+                                <li><a href="#" class="btn  see-video-btn  rounded-0">See Video</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+    </section>
+    <!-- End Header and Hero Section -->
+    <!--Start House selling part -->
+    <section class="container my-5 ">
+        <div class="d-flex  justify-content-evenly">
+            <h3 class=" heading-underline fs-3 p-3 my-lg-5">Latest Properties</h3>
+        </div>
+        <div class="row  p-0 justify-content-evenly">
+            <div class="col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <img src="Images/fp-1.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h4 class="card-title">Kiralık daire</h4>
+                        <h6 class="text-muted">maşukiye, Alabalık Sk., İzmit, kartepe, 41295, Turkey</h6>
+                        <h6 class="text py-3 h-price">$ 1500 <small class="fw-normal"> / aylık</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">2 beds</li>
+                            <li class="col">1 bath</li>
+                            <li class="col">99 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <img src="Images/fp-2.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h4 class="card-title">Test item</h4>
+                        <h6 class="text-muted">Baridhara K Block, Dhaka, Dhaka, 1212, Bangladesh</h6>
+                        <h6 class="text py-3 h-price">$ 3500 <small class="fw-normal"> / week</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">36 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <img src="Images/fp-3.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h4 class="card-title">Jiangsu</h4>
+                        <h6 class="text-muted">
+                            purba laksam, Heysham, Union City, lol, 37505</h6>
+                        <h6 class="text py-3 h-price">$ 7000 <small class="fw-normal"> / aylık</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">3 beds</li>
+                            <li class="col">4 bath</li>
+                            <li class="col">1510 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <img src="Images/fp-2.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h4 class="card-title">Kiralık daire</h4>
+                        <h6 class="text-muted">maşukiye, Alabalık Sk., İzmit, kartepe, 41295, Turkey</h6>
+                        <h6 class="text py-3 h-price">$ 2000 <small class="fw-normal"> / aylık</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">1 beds</li>
+                            <li class="col">1 bath</li>
+                            <li class="col">1000 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End House selling part -->
+    <!--Start House enquiry form -->
+    <section class="container-fluid enquiry-style py-5">
+        <div class="d-flex  justify-content-evenly">
+            <h3 class=" heading-underline fs-3 p-3 my-lg-5">Latest Properties</h3>
+        </div>
+        <div class="row ">
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1">City</label>
+                <input type="text" class="form-control py-3  w-100" placeholder="City">
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1">Country</label>
+                <select class="form-select text-muted py-3">
+                    <option>All Countries</option>
+                    <option>Armenia</option>
+                    <option>India</option>
+                    <option>Iran</option>
+                    <option>Italy</option>
+                </select>
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1 ">Keywards</label>
+                <input type="text" class="form-control py-3  w-100" placeholder="Keywards">
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1 ">Property ID</label>
+                <input type="text" class="form-control py-3  w-100" placeholder="Property ID">
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1 ">Min price</label>
+                <input type="number" class="form-control py-3  w-100" placeholder="Min price">
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1 ">Max price</label>
+                <input type="number" class="form-control py-3  w-100" placeholder="Max price">
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1">Bedrooms</label>
+                <select class="form-select text-muted py-3">
+                    <option>Any</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+
+                </select>
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1">Bathrooms</label>
+                <select class="form-select text-muted py-3">
+                    <option>Any</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+
+                </select>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 p-lg-4 py-3">
+                <label class="pb-1">Property Category</label>
+                <select class="form-select text-muted py-3">
+                    <option>Category</option>
+                    <option>Appartment</option>
+                    <option>flat</option>
+                    <option>House</option>
+                </select>
+            </div>
+            <div class="col-xl-3 py-3 col-md-6 col-sm-12 p-lg-4">
+                <label class="pb-1">Type</label>
+                <select class="form-select text-muted py-3">
+                    <option>Type</option>
+                    <option>Rent</option>
+                    <option>Sale</option>
+                </select>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 py-3  d-flex align-items-end">
+                <input type="submit" class="form-control py-3 cust-sub-btn w-100" placeholder="City">
+            </div>
+        </div>
+    </section>
+    <!-- end House enquiy form -->
+    <!-- start Client Testimonials -->
+    <section class="container my-5">
+        <div class="d-flex  justify-content-evenly">
+            <h3 class="heading-underline fs-3 p-3 my-lg-5">Client Testimonials</h3>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators custome-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-block d-flex w-100">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum nibh,
+                                        pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus tempor
+                                        ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum nibh,
+                                        pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus tempor
+                                        ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-block d-flex w-100">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum nibh,
+                                        pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus tempor
+                                        ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum nibh,
+                                        pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus tempor
+                                        ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-block d-flex w-100">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum
+                                        nibh, pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus
+                                        tempor ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="border border-2 d-flex p-4">
+                                <img src="Images/icon/quote.png" width="30" height="30" alt="">
+                                <div class="mx-3">
+                                    <p>Nulla vel tincidunt ipsum, ut egestas mauris. Nulla facilisi. Etiam ipsum
+                                        nibh, pretium
+                                        necerat
+                                        vitae, placerat semper leo. Sed aliquet neque tortor, eu bibendum risus
+                                        tempor ut aliqomus
+                                        hoca
+                                    </p>
+                                    <p>Olivia Sigurdsson, Shazay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Client Testimonials -->
+    <!-- start feature property -->
+    <section class="container my-5">
+        <div class="d-flex  justify-content-evenly">
+            <h3 class="heading-underline fs-3 p-3 my-lg-5">Featured Properties</h3>
+        </div>
+        <div class="row my-5 p-0 justify-content-evenly">
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <span class="for-fetured">FEATURED</span>
+                    <img src="./Images/featured/home2.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Countryside Villa</h5>
+                        <h6 class="text-muted">1485 Guerrero St, Noe Valley, San Francisco, 94110, United
+                            States</h6>
+                        <h6 class="text py-3 h-price">$ 1500 <small class="fw-normal"> / Month</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">3 beds</li>
+                            <li class="col">2 bath</li>
+                            <li class="col">1600 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <span class="for-fetured">FEATURED</span>
+                    <img src="./Images/featured/home3.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Spacious Apartment</h5>
+                        <h6 class="text-muted">1485 Guerrero St, Noe Valley, San Francisco, 94110, United
+                            States</h6>
+                        <h6 class="text py-3 h-price">$ 1,500 <small class="fw-normal">/ Month</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">3 beds</li>
+                            <li class="col">2 bath</li>
+                            <li class="col">1600 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <span class="for-fetured">FEATURED</span>
+                    <img src="./Images/featured/home2.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Bright Terraced House</h5>
+                        <h6 class="text-muted">1485 Guerrero St, Noe Valley, San Francisco, 94110, United
+                            States</h6>
+                        <h6 class="text py-3 h-price">$ 7000 <small class="fw-normal"> / month</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">3 beds</li>
+                            <li class="col">3 bath</li>
+                            <li class="col">2500 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card w-100">
+                    <span class="for-fetured">FEATURED</span>
+                    <img src="./Images/featured/home3.jpg" class="card-img-top" alt="...">
+                    <span class="for-sale">RENT</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Apartment</h5>
+                        <h6 class="text-muted">1485 Guerrero St, Noe Valley, San Francisco, 94110, United
+                            States</h6>
+                        <h6 class="text py-3 h-price">$ 1680 <small class="fw-normal"> / month</small></h6>
+                        <ul class="row list-unstyled">
+                            <li class="col">3 beds</li>
+                            <li class="col">3 bath</li>
+                            <li class="col">2000 sq ft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end fectures property-->
+    <!-- start user info -->
+    <section class="container my-5">
+        <div class="d-flex  justify-content-evenly">
+            <h3 class="heading-underline fs-3 p-3 my-lg-5">Our agents</h3>
+        </div>
+        <div class="row my-5 p-0 justify-content-evenly">
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card-user ">
+                    <img src="./Images/profile/user1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title ">Simon Tuchannel</h4>
+                        <div class="ratings">
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="text py-3 fw-normal">Nulla eu metus erat Praesent vehicula orci vel ex
+                            elementum, id luctus metus fringilla</p>
+                        <ul class="row list-unstyled">
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-square-facebook"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-twitter"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-google-plus-g"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card-user w-100">
+                    <img src="./Images/profile/user2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Simon Tuchannel</h4>
+                        <div class="ratings">
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="text py-3 fw-normal">Nulla eu metus erat Praesent vehicula orci vel ex
+                            elementum, id luctus metus fringilla</p>
+                        <ul class="row list-unstyled">
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-square-facebook"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-twitter"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-google-plus-g"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card-user w-100">
+                    <img src="./Images/profile/user3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Simon Tuchannel</h4>
+                        <div class="ratings">
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                        </div>
+                        <p class="text py-3 fw-normal">Nulla eu metus erat Praesent vehicula orci vel ex
+                            elementum, id luctus metus fringilla</p>
+                        <ul class="row list-unstyled">
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-square-facebook"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-twitter"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-google-plus-g"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-3 col-md-6 col-sm-12 my-2">
+                <div class="card custome-card-user w-100">
+                    <img src="./Images/profile/user4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Simon Tuchannel</h4>
+                        <div class="ratings">
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="text py-3 fw-normal">Nulla eu metus erat Praesent vehicula orci vel ex
+                            elementum, id luctus metus fringilla</p>
+                        <ul class="row list-unstyled">
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-square-facebook"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-twitter"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-google-plus-g"></i></li>
+                            <li class="col-1 m-2"><i class="fa-brands fa-2x text-muted fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end user info -->
+    <!-- start contact us -->
+    <section class="container">
+        <div class="contact-us-padding">
+            <div class="justify-content-evenly text-center">
+                <h3 class="heading-underline p-3 fs-3">Contact Us</h3>
+            </div>
+            <div class="contact-us m-lg-5">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 leftside ">
+                        <h4 class="contactus-subtitle pb-3">Find Us There</h4>
+                        <p class="pb-3">Collaboratively administrate channels whereas virtual. Objectively seize
+                            scalable metrics whereas
+                            proactive e-services.</p>
+                        <div class="info-card d-flex">
+                            <i class="fas fa-phone fa-2x"></i>
+                            <div class="info mx-3">
+                                <div>Phone:</div>
+                                <div>+91 9876543210</div>
+                            </div>
+                        </div>
+                        <div class="info-card d-flex pb-lg-3">
+                            <i class="fas fa-phone fa-2x "></i>
+                            <div class="info mx-3">
+                                <div>Email:</div>
+                                <div>info@infomore.com</div>
+                            </div>
+                        </div>
+                        <div class="info-card d-flex">
+                            <i class="fas fa-phone fa-2x"></i>
+                            <div class="info mx-3">
+                                <div>Web:</div>
+                                <div>info@infomore.com</div>
+                            </div>
+                        </div>
+                        <div class="info-card d-flex">
+                            <i class="fas fa-phone fa-2x"></i>
+                            <div class="info mx-3">
+                                <div>Fax:</div>
+                                <div>9876543210</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-8 col-sm-12 rightside">
+                        <h4 class="contactus-subtitle pb-3">Get In Touch.</h4>
+                        <div class="row">
+                            <div class=" col-lg-6 col-md-6 col-sm-12">
+                                <input type="text" class="form-control mb-3" placeholder="name">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <input type="text" class="form-control  mb-3" placeholder="Email address">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <input type="text" class="form-control  mb-3" placeholder="Subject">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <input type="text" class="form-control mb-3" placeholder="phone">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <textarea placeholder="type here" class="form-control mb-3" rows="5"></textarea>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <button class="btn bg-danger  mb-3 contact-us-cta">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact us -->
+    <!-- Start Footer -->
+    <section>
+        <footer>
+            <div class="container-fluid  ">
+                <div class="row footer-top" style="height:140px">
+
+                </div>
+            </div>
+            <div class="container-fluid ps-0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  footer-row-second d-flex">
+                    <div class="col ft-footer-1 pe-lg-3 mb-md-5 mb-sm-5">
+                        <div>
+                            <img class="footer-tite-p-50" src="Images/flogo-purple.png" alt="logo" srcset="">
+                            <p class="ft-col1-p-text">
+                                Cras viverra ex et aliquam aliquam. In tempor finibus sapien sed interdum. Donec ac leo
+                                eu
+                                magna vehicula sodales.
+
+                                Nulla consequat sed nisi a finibus. Etiam volutpat, felis sit amet rhoncus euismod,
+                                felis
+                                enim molestie sapien, quis ultrices diam dui vel elit.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col ft-footer-2 mb-md-5">
+                        <div class="mb-3">
+                            <h6 class="footer-tite-p-50">Latest Properties</h6>
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-1.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Latest Properties
+                                    Kiralık daire<br>
+                                    $1,500 aylık
+
+                                    <span class="ft-rent">
+                                        RENT
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="mb-3">
+                            <a href="#" class="d-flex ft-footer-a-2 ">
+                                <span>
+                                    <img src="Images/ft-2.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Test item<br>
+                                    $35 week
+                                    <span class="ft-rent">
+                                        RENT
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="mb-3">
+
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-3.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Jiangsu<br>
+                                    laksam
+                                    <span class="ft-rent">
+                                        RENT
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-4.png" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Room for rent<br>
+                                    $25,00
+                                    <span class="ft-rent">
+                                        RENT
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col ft-footer-3 mb-md-5">
+                        <h6 class="ps-lg-3 footer-tite-p-50">Twitter Feed</h6>
+                    </div>
+                    <div class="col ft-footer-4 ps-lg-3">
+
+                        <div class="mb-3">
+                            <h6 class="footer-tite-p-50">Latest Posts</h6>
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-1.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Hello world!
+                                    <br>
+                                    <span class="ft-latest-post">
+                                        Read Now
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="mb-3">
+                            <!-- <h6>Latest Posts</h6> -->
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-1.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Hello world!
+                                    <br>
+                                    <span class="ft-latest-post">
+                                        Read Now
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="mb-3">
+                            <!-- <h6>Latest Posts</h6> -->
+                            <a href="#" class="d-flex ft-footer-a-2">
+                                <span>
+                                    <img src="Images/ft-1.jpg" alt="Latest Properties" srcset=""
+                                        class="ft-latest-img-1 me-2">
+                                </span>
+                                <span class="marleft">
+                                    Hello world!
+                                    <br>
+                                    <span class="ft-latest-post">
+                                        Read Now
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="row ft-main-row-3">
+                    <div class="col col-copyright">
+                        © Copyright 2019, All Rights Reserved
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+            var exampleModal = document.getElementById('exampleModal')
+            exampleModal.addEventListener('show.bs.modal', function (event) {
+                // Button that triggered the modal
+                var button = event.relatedTarget
+                // Extract info from data-bs-* attributes
+                var recipient = button.getAttribute('data-bs-whatever')
+                // If necessary, you could initiate an AJAX request here
+                // and then do the updating in a callback.
+                //
+                // Update the modal's content.
+                var modalTitle = exampleModal.querySelector('.modal-title')
+                var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+                modalTitle.textContent = 'New message to ' + recipient
+                modalBodyInput.value = recipient
+            })
+
+            var exampleModal1 = document.getElementById('exampleModal1')
+            exampleModal1.addEventListener('show.bs.modal', function (event) {
+                // Button that triggered the modal
+                var button = event.relatedTarget
+                // Extract info from data-bs-* attributes
+                var recipient = button.getAttribute('data-bs-whatever')
+                // If necessary, you could initiate an AJAX request here
+                // and then do the updating in a callback.
+                //
+                // Update the modal's content.
+                var modalTitle = exampleModal1.querySelector('.modal-title')
+                var modalBodyInput = exampleModal1.querySelector('.modal-body input')
+
+                modalTitle.textContent = 'New message to ' + recipient
+                modalBodyInput.value = recipient
+            })
+
+        </script>
+
+</body>
+
+</html>

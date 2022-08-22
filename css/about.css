@@ -22,7 +22,7 @@ body{
 }
 /* page header section start*/
 .cover-page{
-    background-image: url(/Carporate-Project/images/slider-img-5.jpg);
+    background-image: url(/images/slider-img-5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -131,7 +131,7 @@ body{
 }
 /* cta section start */
 .background-cta{
-    background-image: url(/Carporate-Project/images/hero-bg11.jpg);
+    background-image: url(/images/hero-bg11.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 

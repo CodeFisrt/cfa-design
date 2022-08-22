@@ -1,0 +1,168 @@
+
+.menu-bar ul,li{
+   
+    text-decoration: none;
+    list-style: none;
+    margin-inline-start: 90PX;
+    margin-block-start: -10px;
+    margin-left: 18px;
+
+}
+.menu-bar ul,li,a{
+    text-decoration: none;
+    color:black;
+
+}
+.slider-content h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: left;
+    
+    
+}
+.slider-content p{
+    font-size: 25px;
+    color: #fff;
+    text-align: left;
+    margin-bottom:0px;
+}
+.section-content{
+    margin-left: 330px;
+    margin-bottom: 37px;
+    padding-top: 77px;
+}
+.card-img-top-3{
+    width: 80px;
+}
+.card-wrap{
+    padding: 150px;
+    padding-top: 50px;
+    padding-left: 196px;
+    margin-right: 0px;
+}
+.card-section{
+    background-color: #f8f9fa;
+}
+.main-dv{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .main-dv{
+        display: block !important;
+}
+.nav-wrap{
+    background-color: #fff;
+    
+}
+#drop-list{
+    margin: 2px;
+    padding:2px;
+    font-size:13px ;
+}
+.list-name{
+    color: #624bff;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+}
+
+
+
+/* vivek da css*/
+/* .card-img-top{
+    width: 70px;
+}
+
+.card{
+    width: 70px;
+
+    
+} */
+
+.card-img-top-1{
+    width: 60px;
+    margin-left: 170px;        
+    }
+    .card-img-top-2{
+        width: 50px;
+        margin-left: 170px;
+    }
+    
+    /* .icon-li{
+        display: flex;
+        list-style:none;
+    } */
+    #list-wrap {
+     list-style: none;
+     color: white;
+     margin-bottom: 10px;
+    
+    }
+    
+    
+.h5-cl{
+        font-family: inter sans-serif;
+         color: #6c757d;
+         font-size: 1rem;
+         font-weight: 400;
+        line-height: 1.6;
+    } 
+    
+    .footer-logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .img-fluid-rounded-3{
+        border-radius: 0.5rem;
+        vertical-align: middle;
+    }
+    
+    .link-menu a{
+       text-decoration: none;
+    }
+    .card-body{
+        text-align: center;
+    
+    }
+    
+    .row-content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .logo-1{
+        height: 25px;
+        width: 25 px;
+    }
+    .form-control{
+        width: 300px;
+    }
+    .hr{
+        color: white;
+        width: 87%;
+        margin-left: 86px;
+    }
+
+/*Chetan css code*/
+
+.testimonials-card{
+    width: 25%;
+    margin-right: 50px;
+    
+}
+#testimonials-card{
+    margin-inline-start: 150px;
+}
+.fast-card{
+    width: 25%;
+    margin-inline-start: 80px;
+}
+.mid-sec{
+    background-color: #f8f9fa;
+}

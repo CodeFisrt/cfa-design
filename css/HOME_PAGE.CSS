@@ -1,0 +1,33 @@
+.content-2{
+    /* background-image: url("pexels-anna-shvets-3962285.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-color: cadetblue;
+    
+
+}
+.content-2 h1{
+    font-weight: 900;
+}
+.container-03{
+    background-image: url("deal-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    
+
+}
+a.navbar-brand {
+    font-weight: 900;
+    margin-left: 25px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+    .header-3 {
+       
+        justify-content: center;
+        text-align: center;
+        padding: 2px;
+    }

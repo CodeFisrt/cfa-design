@@ -1,0 +1,336 @@
+a.navbar-brand.logo {
+    /* font-size:large; */
+    font-weight: 900;
+    margin-right: 100px;
+    font-size: xx-large;
+   color: white;
+  }
+a.navbar-brand.logo:hover{
+  color: coral;
+  
+}
+a.navbar-brand.logo::first-letter{
+    color: coral;
+    font-size: 70px;
+  }
+.log-in a{
+    font-weight:500 ;
+
+}
+body{
+    font-family:'Chivo', sans-serif;
+}
+
+.button_download{
+    background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button_download:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+
+
+  .button_cart{
+    background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+
+  .button_cart :hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+
+
+.add_cart {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.add_cart:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.add_cart:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.text-1{
+    background-color: #612e90e8;
+    color: white;
+    height: 200px;
+}
+.text-1 h1:first-child{
+font-size:40px;
+color: #FF9A5A;
+}
+.text-1 h4::first-letter{
+    font-size: 40px;
+    color: chartreuse;
+    font-weight: 500;
+}
+
+.header-1{
+    background-color: #008CBA;
+}
+.header-1{
+    background-color: #008CBA;
+}
+nav.navbar {
+    padding: 0;
+}
+.header-2{
+  background-color: #fff131;
+  
+}
+.header-2 a:hover{
+  background-color: rgb(232, 193, 242);
+
+  border-radius: 15px;
+}
+.header-2 a{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 17px;
+}
+.header-2 a::first-letter{
+  font-size: 20px;
+}
+.description-1{
+  background-image: url("descript-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  border-radius: 20px;
+}
+.description-1 h1::first-letter{
+  font-family: cursive;
+  font-size: 50px;
+  
+
+}
+
+  .explore-button{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    height: 50px;
+    padding: 20px;
+    font-size: larger;
+  }
+  
+.brand-1{
+  width: 15%;
+border: solid;
+margin: 10px;
+display: flex;
+justify-content: center;
+}
+.brand-2{
+  width: 15%;
+  border: solid;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+border: solid;
+
+}
+
+.brand-3{
+  width: 15%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+border: solid;
+
+}
+.brand-4{
+  width: 15%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+border: solid;
+
+}
+.brand-5{
+  width: 15%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+border: solid;
+
+}
+.brand-7{
+border: solid;
+width: 15%;
+margin: 10px;
+display: flex;
+justify-content: center;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services-1{
+  
+width: 30%;
+
+
+
+}
+
+
+
+.services-2{
+  width: 30%;
+
+
+
+
+}
+
+
+.services-3{
+
+  width: 30%;
+
+
+
+}
+.footer-wrapper{
+  background-color: gray;
+  font-family: cursive;
+}
+.footer-wrapper ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.offer-1{
+  width: 20%;
+ margin: 30px;
+}
+.offer-2{
+  width: 20%;
+ margin: 30px;
+
+}
+.offer-3{
+  width: 20%;
+ margin: 30px;
+
+}
+.offer-4{
+  width: 20%;
+ margin: 30px;
+
+}
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:azure;
+}
+
+.about-section{
+    background: url(about-us.png) no-repeat left;
+    background-size:55% ;
+    background-color: azure;
+    overflow: hidden;
+}
+.inner-container{
+    width:55% ;
+   float: right;
+   background-color: azure;
+   padding:150px ;
+}
+.inner-container h1{
+    margin-bottom:30px ;
+    font-size:30px ;
+    font-weight:900 ;
+}
+.text{
+    font: size 13px; 
+    color: blueviolet;
+    line-height : 30px; 
+    text-align: justify;
+    margin-bottom:40px ;
+
+}

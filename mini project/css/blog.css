@@ -1,0 +1,169 @@
+.menu-bar ul,li{
+   
+    text-decoration: none;
+    list-style: none;
+    margin-inline-start: 90PX;
+
+}
+.menu-bar ul,li,a{
+    text-decoration: none;
+    color:black;
+    margin-block-start: -10px;
+    margin-left: 18px
+}
+.main-dv{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .main-dv{
+        display: block !important;
+}
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 77px;
+    background-size: contain;
+    background-color: #f8f9fa;
+}
+.card-button{
+    margin-inline-start: 750px;
+}
+.card-link{
+    margin-inline-start: 160px;
+}
+.card-links{
+    margin-left: 450px;
+}
+.card{
+    margin-top: 150px;
+}
+.blog-con{
+    width: 70%;
+}
+.nav-bar{
+    background-color: #f8f9fa;
+}
+.link-con{
+    background-color: #f8f9fa;
+}
+.blog-img{
+    margin-top: 20px;
+}
+#drop-list{
+    margin: 2px;
+    padding:2px;
+    font-size:13px ;
+}
+.list-name{
+    color: #624bff;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+}
+.post-holder{
+    background-color: #e3dcff;
+    width: 93%;
+}
+.full-card{
+    width: 93%;
+}
+.blog-card{
+    border: 1px solid #e9ecef; 
+    background-color: #e9ecef;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.loan-search{
+    padding: 40px;
+
+}
+.blog-categories{
+    padding: 20px;
+
+}
+.blog-date{
+    font-size: 13px;
+}
+.blog-Archives{
+    padding: 20px;
+}
+/* vivek da css*/
+/* .card-img-top{
+    width: 70px;
+}
+
+.card{
+    width: 70px;
+
+    
+} */
+
+.card-img-top-1{
+    width: 60px;
+    margin-left: 170px;        
+    }
+    .card-img-top-2{
+        width: 50px;
+        margin-left: 170px;
+    }
+    
+    /* .icon-li{
+        display: flex;
+        list-style:none;
+    } */
+    #list-wrap {
+     list-style: none;
+     color: white;
+     margin-bottom: 10px;
+    
+    }
+    
+    
+.h5-cl{
+        font-family: inter sans-serif;
+         color: #6c757d;
+         font-size: 1rem;
+         font-weight: 400;
+        line-height: 1.6;
+    } 
+    
+    .footer-logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .img-fluid-rounded-3{
+        border-radius: 0.5rem;
+        vertical-align: middle;
+    }
+    
+    .link-menu a{
+       text-decoration: none;
+    }
+    .card-body{
+        text-align: center;
+    
+    }
+    
+    .row-content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .logo-1{
+        height: 25px;
+        width: 25 px;
+    }
+    .form-control{
+        width: 300px;
+    }
+    .hr{
+        color: white;
+        width: 87%;
+        margin-left: 86px;
+    }

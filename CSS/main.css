@@ -481,7 +481,7 @@ background-color: #382925;
 .map-wrap {
     height: 500px;
     border-radius: 5px;
-    padding-left: 15%;
+    /* padding-left: 15%; */
 }
 .float-input {
     margin: 10px;
@@ -490,8 +490,8 @@ background-color: #382925;
     padding: 15px;
 } 
 .area {
-   width: 300px;
-   height: 150px;
+   /* width: 300px;
+   height: 150px; */
 }
 .contact {
     background-color: #382a26;

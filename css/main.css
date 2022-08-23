@@ -307,9 +307,7 @@ a, .text-action {
  .card-text{
     color:#707070
  }
- .a{
-    color:black
- }
+ 
  
  .icon-class{
     font-size: 2.75rem;
@@ -388,9 +386,9 @@ color:#ffffff
 .icon-color{
     color:#cd201f
 }
-ul li{
+.footer-bg ul li{
     padding-bottom: 25px;
 }
-ul li a:hover{
+.footer-bg ul li a:hover{
     color:#ffff
 }

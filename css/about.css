@@ -8,13 +8,15 @@ body{
     text-align: left;
 } 
 /* header section */ 
+
+
 .fixed-header {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
-    background-color: transparent;
+    z-index: 1030;    
+    background-color: #1A2C79;
 }
 .list-item  li a{
     text-decoration:none;
@@ -43,8 +45,8 @@ body{
 /* work process section start */
 .section{
     position: relative;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 } 
 .lead{
     font-size: 20px;
@@ -74,8 +76,6 @@ body{
 .feature-widget{
     padding: 10px;
 }
-
-
 /* work process section end */
 /* About us section atart */
 .background-about{
@@ -234,4 +234,9 @@ body{
  .star i{
     color: #F5B759;
  }
-
+ .footer-wrap a{
+    color: #ffff;
+    opacity: 0.5;
+ }
+ /* responsive */
+ 

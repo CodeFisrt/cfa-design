@@ -7,7 +7,8 @@ body{
     color: #707070;
     text-align: left;
 } 
-/* header section */ 
+/* header section */
+
 .fixed-header {
     position: fixed;
     top: 0;
@@ -20,15 +21,6 @@ body{
     text-decoration:none;
     color: #707070;    
 }
-/*.list-item{
-    list-style: none;
-    margin-left: auto;
-}
-.list-item a{
-    text-decoration: none;
-    color: inherit;
-}*/
-
 .btn-secondary{
     color: #ffffff;
     background-color: #e80566;
@@ -47,7 +39,7 @@ body{
 }
 .main-content{
     text-align: left;
-    padding: 150px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 .text-wrap{
     padding: 130px 0px 0px 0px;
@@ -163,6 +155,10 @@ width: 100%;
 .footer-wrap{
     background-color: #1A2C79 ;
 }
+.footer-wrap a{
+    color: #ffff;
+    opacity: 0.5;
+ }
 .fa-square-twitter{
   
    color: #1DA1F2;  

@@ -480,7 +480,39 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
+/* Contact Us page css */
+.sub-banner-contact {
+    background: rgba(0, 0, 0, 0.04) url(../images/header/contact-bk.jpg) top left repeat;
+    background-size: cover;
+    padding: 157px 0 100px;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.sub-banner-contact:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(11 10 14 / 63%);
+    content: "";
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.sub-banner-contact h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.sub-banner-contact .breadcrumb-area {
+    text-align: right;
+}
 /* .active,
 .about-dot:hover {
     background-color: #111111;

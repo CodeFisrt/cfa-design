@@ -1,3 +1,15 @@
+/* listo webpage design
+1.universal code
+2.common css
+3.top navigation bar
+4. navigation bar
+
+
+*/
+
+
+
+/* 1. universal code */
 * {
     font-family: 'PT Sans', sans-serif;
     padding: 0;
@@ -5,8 +17,55 @@
     box-sizing: border-box;
     font-size: 13px;
 }
+/* 2. common css */
+.heading-underline::after{
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    margin-left: -50px;
+    left: 50%;
+    top: 100px;
+    bottom: 0;
+    background: #43abd2 !important;
+    content: "";
+}
+.modal-content{
+    background-color: #f8f8f8;
+}
+/* common code for contact us and about */
+.sub-banner {
+    background: rgba(0, 0, 0, 0.04) url(../images/header/contact-bk.jpg) top left repeat;
+    background-size: cover;
+    padding: 157px 0 100px;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-/* top navigation bar */
+.sub-banner:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(11 10 14 / 63%);
+    content: "";
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.sub-banner h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.sub-banner .breadcrumb-area {
+    text-align: right;
+}
+/* 3. top navigation bar */
 .header-bg {
     background-image: url("../Images/header.jpg") !important;
     background-size: cover;
@@ -19,7 +78,7 @@
     padding: 130px 0px 230px 0px !important;
 }
 
-/* navigation bar */
+/* 4. navigation bar */
 .secondary-header {
     background-color: white !important;
     margin-bottom: 130px !important;
@@ -119,6 +178,8 @@
 .modal-sign-up-google-a:hover {
     color: white;
 }
+
+
 
 /* user info section */
 .card-body .card-title {
@@ -274,7 +335,6 @@
 
 /* Client Testimonials */
 .custome-indicators {
-    /* background-color: #43abd2; */
     position: relative;
     bottom: -210px;
 
@@ -324,39 +384,6 @@
 }
 
 /* About Us page css */
-.sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../Images/fp-3.jpg) top left repeat;
-    background-size: cover;
-    padding: 157px 0 100px;
-    z-index: 1;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.sub-banner:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(11 10 14 / 63%);
-    content: "";
-    z-index: -1;
-    opacity: 0.9;
-}
-
-.sub-banner h1 {
-    font-size: 27px;
-    font-weight: 500;
-    margin: 0;
-    color: #fff;
-}
-
-.sub-banner .breadcrumb-area {
-    text-align: right;
-}
-
 .inner-hero-ul {
     margin: 0;
     padding: 0;
@@ -480,43 +507,6 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-/* Contact Us page css */
-.sub-banner-contact {
-    background: rgba(0, 0, 0, 0.04) url(../images/header/contact-bk.jpg) top left repeat;
-    background-size: cover;
-    padding: 157px 0 100px;
-    z-index: 1;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.sub-banner-contact:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(11 10 14 / 63%);
-    content: "";
-    z-index: -1;
-    opacity: 0.9;
-}
-
-.sub-banner-contact h1 {
-    font-size: 27px;
-    font-weight: 500;
-    margin: 0;
-    color: #fff;
-}
-
-.sub-banner-contact .breadcrumb-area {
-    text-align: right;
-}
-/* .active,
-.about-dot:hover {
-    background-color: #111111;
-} */
 
 /* Fading animation */
 .fade {

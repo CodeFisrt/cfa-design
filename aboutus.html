@@ -20,7 +20,7 @@
 
 <body>
     <!-- Inner Hero Section starts here -->
-    <div class="sub-banner">
+    <header class="sub-banner">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <!-- Best Properties row first section starts here -->
     <div class="content-area-5 align-middle">
         <div class="container">
@@ -184,7 +184,7 @@
     </div>
 
     <!-- Meet Our Skilled Team Stats here -->
-    <div class="about-team">
+    <section class="about-team">
         <div class="container">
             <div class="row text-center py-md-5 py-sm-5">
                 <p class="text-danger fw-bold">Our Professionals</p>
@@ -265,7 +265,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- start about us counter -->
     <section>
         <div class="about-us-counter">
             <div class="container">
@@ -327,28 +328,28 @@
                 </div>
             </div>
     </section>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col about-last-col-back img-fluid"></div>
-                <div class="col-12 col-md-12 col-lg-6">
-                    <div class="about-last-r-c">
-                        <p class="fw-bold text-danger">Testimonials</p>
-                        <h3 class="fw-bold display-6">Customer Reviews</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text everLorem industry's standard dummy text everLorem
-                            Ipsum Lorem Ipsum is simply dummy text of the printing. as</p>
-                            <div class="about-last-profile-img">
-                                <img src="Images/avatar-2.jpg" alt="" srcset="" class="img-fluid rounded-circle">
-                            </div>
-                            <h6 class="fw-bold">Carolyn Stone</h6>
-                            <p>Web Designer, Uk</p>
+    <!-- end about us counter -->
+    <!-- start Testimonials -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col about-last-col-back img-fluid"></div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="about-last-r-c">
+                    <p class="fw-bold text-danger">Testimonials</p>
+                    <h3 class="fw-bold display-6">Customer Reviews</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text everLorem industry's standard dummy text everLorem
+                        Ipsum Lorem Ipsum is simply dummy text of the printing. as</p>
+                    <div class="about-last-profile-img">
+                        <img src="Images/avatar-2.jpg" alt="" srcset="" class="img-fluid rounded-circle">
                     </div>
+                    <h6 class="fw-bold">Carolyn Stone</h6>
+                    <p>Web Designer, Uk</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <!-- end Testimonials -->
         <footer>
             <div class="container-fluid ps-0">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  footer-row-second d-flex">
@@ -496,30 +497,9 @@
                         © Copyright 2019, All Rights Reserved
                     </div>
                 </div>
-
             </div>
-
         </footer>
-    </section>
-
-    <script>
-        var slideIndex = 0;
-        showSlides();
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1
-            }
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-    </script>
-
+    <script src="js/js.js"></script>
 </body>
 
 </html>

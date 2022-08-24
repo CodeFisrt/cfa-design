@@ -1,0 +1,213 @@
+.search-box {
+    width: 50%;
+    margin-left: 112px;
+}
+.img-logo {
+    margin-left: -80px;
+    margin-right: 0px;
+    width: 500px;
+}
+.menu-link li a {
+    color: black;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header {
+    margin-left: 50px;
+}
+.slide-image {
+    margin-top: 0px;
+}
+.slide-image i {
+    position: absolute;
+    left: 260px;
+    top: 170px;
+    color: #cd7752;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    animation: backInUp;
+    animation-duration: 2s;
+    --animate-repeat: 3;
+}
+.slide-image h1 {
+    position: absolute;
+    left: 300px;
+    top: 220px;
+    color: #000000;
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 1;
+    font-family: 'Cutterlines DEMO', sans-serif;
+    padding: right 100px;
+    animation: backInUp;
+    animation-duration: 2s;
+    --animate-repeat: 3;
+}
+.slide-image a {
+    position: absolute;
+    left: 300px;
+    top: 330px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    border-color: #cd7752;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Cutterlines DEMO', sans-serif;
+    background-color: #cd7752;
+    padding-right: 50px;
+    animation: backInUp;
+    animation-duration: 2s;
+    --animate-repeat: 3;
+}
+.search-box {
+    border-radius: 5px;
+}
+.four-cards {
+    position: absolute;
+    left: 340px;
+    top: 680px;
+}
+.juice-card {
+    height: 100px;
+}
+
+.burger {
+    margin-top: 25%;
+}
+
+.card :hover {
+    color: blue;
+}
+
+.list li {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.footer {
+    padding: 100px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.footer li {
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-bottom: 10px; */
+}
+
+.heads {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(240, 248, 255, 0.973);
+}
+
+.main-menu-link ul li {
+    list-style: none;
+    display: inline;
+}
+
+.content-main {
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 25px;
+
+}
+
+.content-main p {
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 14px;
+    letter-spacing: normal;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-desc {
+    display: block;
+    margin-top: 15px;
+    line-height: 25px;
+    padding-right: 160px;
+    padding-left: 160px;
+    font-size: 14px;
+    color: black;
+    letter-spacing: .5px;
+    letter-spacing: normal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info p {
+    padding-right: 250px;
+    padding-left: 250px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-title {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.address {
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-fill textarea {
+    padding: 10px;
+    padding-right: 250px;
+}
+
+.form-content {
+    margin-bottom: 20px;
+
+}
+
+.input-box {
+    padding: 5px;
+    padding-right: 250px;
+}
+
+.b-submit a {
+    background-color: #cd7752;
+    color: #fff;
+    margin-left: 33px;
+}

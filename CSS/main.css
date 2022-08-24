@@ -1,5 +1,5 @@
 * {
-    font-family: lobter;
+    font-family: lobster;
 }
 body {
     background-color: #5a423b !important;
@@ -122,7 +122,7 @@ body {
     color: #382a26;
 }
 
-i:hover {
+.icon-blocks i:hover {
     transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
@@ -185,14 +185,11 @@ background-color: #382925;
 .logo-label {
     color: rgb(177,140,87);
     font-size: 12px;
-    font-family: lobster;
 }
 .add-part {
     font-size: 11px;
-    font-family: lobster;
 }
 .head-label {
-    font-family: lobster;
     font-size: 13px;
 }
 .bottom-strip {
@@ -202,6 +199,12 @@ background-color: #382925;
     color: rgba(255, 255, 255, 0.174);
     font-size: 20px;
     padding: 0px 10px;
+}
+.link-menu i:hover{
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -webkit-animation-delay: 0.5s;
 }
 /* Shop.HTML Page CSS */
 .product-bar {

@@ -166,10 +166,10 @@ body{
     font-family: "Archivo", sans-serif;
     font-weight: 600;
 }
-.btn:hover{
+/* .btn:hover{
     background-color: #ffff;
     color: #1A2C79;
-    }
+    } */
 .download-btn-wrap .fab:hover{
     color: #1A2C79;
 }

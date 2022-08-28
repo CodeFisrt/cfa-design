@@ -2,10 +2,16 @@
     width: 50%;
     margin-left: 112px;
 }
-.img-logo {
-    margin-left: -80px;
-    margin-right: 0px;
-    width: 500px;
+.header{
+    align-items: center;
+    padding: 13px 0px;
+}
+body{
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .menu-link li a {
     color: black;
@@ -80,7 +86,7 @@
     margin-top: 25%;
 }
 
-.card :hover {
+.burger h3:hover {
     color: blue;
 }
 
@@ -201,10 +207,10 @@
 
 }
 
-.input-box {
+/* .input-box {
     padding: 5px;
     padding-right: 250px;
-}
+} */
 
 .b-submit a {
     background-color: #cd7752;

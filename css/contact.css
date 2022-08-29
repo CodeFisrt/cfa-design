@@ -115,3 +115,7 @@ h1{
     color: blue;
     font-weight: bold;
 }
+.card-wrap{
+    display: flex;
+    text-align: justify;
+}

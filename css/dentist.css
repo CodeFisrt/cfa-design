@@ -1,0 +1,84 @@
+.bg-cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.achievement-img{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 20px 40px  rbg(0 0 0/ 8% );
+    overflow: hidden;
+    min-height: 405px;
+}
+.dentist-img{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 10px 20px 40px  rbg(0 0 0/ 8% );
+    overflow: hidden;
+    height: 362px;
+}
+.widegts-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.widegts-content ul li {
+    list-style: none;
+}
+
+.widegts-content ul li a:hover {
+    color: pink;
+}
+.widegts-content{
+font-size: 16px !important;
+font-weight: 400px !important;
+line-height: 30px !important;
+
+}
+.single-footer-widget {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+   
+}
+/* li{
+    list-style: none;
+} */
+.last-footer{
+    background-color: rgb(43, 70, 226);
+}
+.footer-last-part{
+    background-color: #004caa;
+   
+}
+.info-wrap{
+    line-height: normal;
+}
+
+.footer{
+    line-height: 1;
+}
+.navbar-collapse ul li {
+    display: inline;
+    list-style: none;
+ padding: 10px;
+}
+
+.navbar-collapse ul li a:hover {
+    color: pink;
+}
+.navbar-collapse ul li a{
+    text-decoration: none;
+    text-decoration: solid 1px;
+    color: blue;
+    font-weight: bold;
+}
+.dentist-award-membership li{
+    display: inline-block;
+    list-style: circle;
+}
+.icon1{
+font-weight: 400px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var rollNo = 123;
+        var rollNoSTr = rollNo.toString();
+        // var name = "Demo";
+        console.log(rollNoSTr);
+
+        var address = "Plot No 123, Manewada road, Nagpur, 442012";
+        var addressStrArr = address.split(',');
+        console.log(addressStrArr);
+        var name="Akshay";
+        var nm=name.split("");
+        console.log("name",nm);
+        var revStr;
+        var reperatAddres = "";
+      
+        for(var i=0; i<(nm.length)-1;i++){
+            debugger; 
+            // revStr+=
+            revStr+=1;
+        }
+        console.log(revStr);
+    </script>
+</head>
+<body>
+    <!-- <div id="mainul">
+
+    </div> -->
+    <select id="myDropdown">
+
+    </select>
+    <ul id="myUL">
+
+    </ul>
+
+    <script>
+        var cityArray = ["Nagpur", "Mumbai", "Bhopal", "Pune"];
+        function createDropdown() {
+            setTimeout(() => {
+                for (var index = 0; index < cityArray.length; index++) {
+                    var option = document.createElement("option");
+                    option.text = cityArray[index];
+                    option.value = "val" + cityArray[index];
+                    document.getElementById("myDropdown").appendChild(option);
+                    //console.log("continue :" +i);
+                }
+                for (var index = 0; index < cityArray.length; index++) {
+                    var ul = document.getElementById("myUL");
+                    var li = document.createElement("li");
+                    li.appendChild(document.createTextNode(cityArray[index]));
+                    ul.appendChild(li); 
+                }
+            }, 2000);
+            
+        }
+        // console.log('dropdwon ' + document.getElementById("myDropdown"));
+        createDropdown();
+    </script>
+    <script>
+        
+    </script>
+</body>
+</html>
